@@ -1,0 +1,403 @@
+body{
+  background-color: #081b29;
+  height: 1400px;
+}
+h1{
+  color: #00abf0;
+}
+.TovBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #0a1c29;
+  opacity: 0.9;
+  position: -webkit-sticky;
+  position: sticky;
+
+top:0;
+}
+.menuContainer{
+  display: flex;
+  flex-direction: row;
+  padding-top:18px;
+  
+}
+.active{
+  font-size:large;
+ padding: 6px;
+ margin-left: 15px;
+ cursor: pointer;
+ transition: 0.2s;
+ color: red;
+ text-decoration: none;
+}
+.notActive{
+ font-size:large;
+ color: #ededed;
+ padding: 6px;
+ margin-left: 15px;
+ cursor: pointer;
+ transition: 0.2s;
+ text-decoration: none;
+}
+.menuContainer .notActive:hover{
+  color:#00abf0;
+}
+.homeLayout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.img{
+  border-radius: 180px;
+  width: 300px;
+  height: 250px;
+  border: 3px solid  #00abf0;
+  margin: 0;
+}
+.imgContainer{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 310px;
+  height: 258px;
+  border-radius: 170px;
+
+}
+
+.name{
+  font-size: 3rem;;
+  color:#00abf0;
+  display: inline;
+  margin-left: 10px;
+}
+.int{
+  color: #6a6d78;
+  font-size: 1.4rem;
+  display: inline;
+  
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text,
+.aboutText{
+  color: #6a6d78;
+  font-size: 1.3rem;
+  width: 470px;
+
+overflow: hidden;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+ width: 480px;
+align-items:space-between;
+justify-content: space-between;
+}
+.button{
+cursor: pointer;
+  padding: 4px 3px;
+  width: 20%;
+  color: #d7cfcf;
+  background:transparent;
+  border-radius: 5px;
+  margin-top: 16px;
+ border: 1px solid white;
+
+}
+h2{
+  color:#00abf0
+}
+h3{
+  color: #cbc8c8;
+  margin-bottom: 3px;
+}
+.container{
+  background-color: #ddd;
+  width: 410px;
+  height: 30px;
+  margin-top: 4px;
+  border-radius: 8px;
+  
+}
+.button:hover{
+  background-color: #00abf0;
+  color:#081b29;
+}
+.skillBars{
+box-shadow: 0 11px 28px ;
+margin-top: 30px;
+padding: 15px;
+width: 60vh;
+}
+.container div{
+  text-align: right;
+  height: 100%;
+  transition: all 4s ease;
+  background: linear-gradient(135deg, rgba(236, 0, 140,1), rgba(252, 103, 103, 1)100%);
+  border-radius: 7px;
+}
+.html{
+ 
+ width: 90%;
+ animation:html 2.5s;
+}
+@keyframes html{
+  0%{
+    width: 0%;
+  }
+  100%{
+width: 90%;
+  }
+}
+.css{
+ 
+  width: 60%;
+  animation:css 3s;
+}
+@keyframes css{
+  0%{
+    width: 0%;
+  }
+  100%{
+width: 60%;
+  }
+}
+.js{
+  
+  width:50%;
+  animation:js 3.4s;
+}
+.ui{
+  width: 40%;
+  animation: ui 3.7s;
+}
+@keyframes ui{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 40%
+  }
+}
+.ux{
+  width: 50%;
+  animation: ux 3.4s;
+}
+@keyframes ux{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%
+  }
+}
+@keyframes js{
+  0%{
+    width: 0%;
+  }
+  100%{
+width: 50%;
+  }
+}
+.react{
+    width: 60%;
+  animation:react 3s;
+}
+@keyframes react{
+  0%{
+    width: 0%;
+  }
+  100%{
+width: 60%;
+  }
+}
+.logoS{
+  display: flex;
+  flex-direction: row;
+}
+.icons{
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 20px;
+  padding-top: 30px;
+}
+.icons:hover{
+  color:#00abf0;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  
+}
+.contactMe{
+  color:#6a6d78;
+  font-size: large;
+}
+.emailphnum{
+  background-color: #0b2130;
+  font-size: large;
+width: 300px;
+height: 80px;
+display: flex;
+flex-direction: column;
+padding: 10px;
+z-index: 1.6;
+color:rgb(176, 183, 164)
+}
+.ep{
+  padding: 3px;
+  margin-bottom: 15px;
+}
+
+.twt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.fbText{
+  font-size: large;
+  
+}
+.twitterText{
+  font-size: large;
+}
+.fbtw{
+
+  margin-top: 40px;
+  background-color: #0b2130;
+width: 440px;
+
+border-radius: 10px;
+cursor: pointer;
+ color:rgb(176, 183, 164);
+z-index: 1.5;
+overflow: hidden;
+}
+.iconsContact{
+position: relative;
+font-size: 2.5rem;
+bottom: 20px;
+}
+.fb{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid rgb(66, 54, 54) 0.5px;
+  padding: 10px;
+  height: 70px;
+}
+.fbText:hover{
+  text-decoration: underline;
+  color: #24a9dd;
+}
+.twitterText:hover{
+  text-decoration: underline;
+  color: #24a9dd;
+}
+.projectContainer{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.project{
+  background-color: rgb(176, 183, 164);
+  width: 850px;
+  display: grid;
+  grid-template-columns:  repeat(2, 1fr);
+  gap: 30px;
+background-color: #081b29;
+box-shadow: 0 10px 24px;
+padding-top: 23px;
+}
+.projectCard{
+  width: 300px;
+  height: 350px;
+  margin: 2px 40px;
+ 
+}
+.projectText{
+  font-size: 1.5rem;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(86, 16, 55)
+}
+.projectText,.projectImg{
+  width: 100%;
+  height: 90%;
+  background-color: #757272;
+  border-radius:  12px;
+}
+.con{
+  padding: 6px;
+  font-size: 1rem;
+  margin: 10px;
+
+ opacity: 0.7;
+  cursor: pointer;
+}
+.se
+.hs{
+ 
+color: rgb(103, 99, 99);
+
+}
+.servicesContainer{
+
+
+}
+.services{
+  display: flex;
+  flex-direction: row;
+
+}
+.web{
+  margin-left: 50vh;
+  margin-right: 200px;
+}
+.design{
+
+margin-left: 10vh;
+margin-right: 400px;
+
+}
+.tt{
+  width : 200px;
+  font-size: 1.2rem;
+  color:rgb(172, 188, 146);
+ 
+
+}
+.portfolioProject{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+margin-top: 12px;
+
+  
+}
+.portfolioText{
+  font-size: 1.4rem;
+  color:rgb(163, 238, 34);
+  text-align: center;
+  margin: 40px  230px  12px 230px;
+
+}
+.skillsContainer{
+  width: 80vh;
+  margin-left: 60vh;
+}
